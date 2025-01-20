@@ -104,3 +104,80 @@ igbo_dictionary = {
     "place": "ebe",
   
 }
+# Dictionary with English-Spanish translations
+dictionary = {
+    "Hello": "Hola",
+    "Goodbye": "Adiós",
+    "Thank you": "Gracias",
+    "Yes": "Sí",
+    "    No": "No",
+    "Please": "Por favor",
+    "Sorry": "Lo siento",
+    "House": "Casa",
+    "Food": "Comida",
+    "Water": "Agua",
+    "Friend": "Amigo",
+    "Love": "Amor",
+    "Dog": "Perro",
+    "Cat": "Gato",
+    "School": "Escuela",
+    "Car": "Coche",
+    "Book": "Libro",
+    "Music": "Músi                                            ca",
+    "Family": "Familia",
+    "Work": "Trabajo"
+}
+
+# Function to translate English to Spanish
+def translate():
+    english_word = entry.get().capitalize()  # Capitalize input to match dictionary keys
+    spanish_word = dictionary.get(english_word, "Word not found!")
+    result_label.config(text=f"Spanish: {spanish_word}")
+
+def translate():
+    english_word= entry.get().capitalize() # capitalize input to match dictionary keys
+    hausa_word= dictionary.get(english_word,  "word not found!")
+    result_label.config(text=f"hausa: {hausa_word}")
+
+    def translate():
+        english_word=entry.get().capitalize()#capitalize input to match dictionary keys
+        yoruba_word=entry.get(english_word,"word not found!")
+        result_label.config(text=f"yoruba: {yoruba_word}")
+
+        def translate ():
+            english_word=entry.get().capitalize()#capitalize input to match dictionary keys
+            french_word=entry.get(english_word,"word not found!")
+            result_label.config(text=f"french: {french_word}")
+
+            def translate ():
+                english_word=entry.get().capitalize()#capitalize input to match dictionary keys
+                igbo_word=entry.get(english_word,"word not found!")
+                result_label.config(text=f"igbo: {igbo_word}")
+
+
+
+# Initialize Tkinter windowf
+root = tk.Tk()
+root.title("English-Spanish Dictionary")
+root.geometry("400x300")
+
+# Title label
+title_label = tk.Label(root, text="English-Spanish Dictionary", font=("Arial", 16))
+title_label.pack(pady=10)
+
+# Input field and label
+input_label = tk.Label(root, text="Enter an English word:", font=("Arial", 12))
+input_label.pack()
+entry = tk.Entry(root, font=("Arial", 12), width=30)
+entry.pack(pady=5)
+
+# Translate button
+translate_button = ttk.Button(root, text="Translate", command=translate)
+translate_button.pack(pady=10)
+
+# Result label
+result_label = tk.Label(root, text="", font=("Arial", 14), fg="blue")
+result_label.pack(pady=10)
+
+# Run the Tkinter main loop
+root.mainloop()
