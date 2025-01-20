@@ -25,3 +25,26 @@ hausa_dict = {
     "bird": "masara",
     "table": "tebari"
 }
+# Yoruba dictionary
+yoruba_dictionary = {
+    'bawoni': 'how are you',
+    'mo wa': 'i am fine',
+    'ore mi': 'my friend',
+    'ile': 'house',
+    'oko': 'farm',
+    'oluwa': 'God',
+    'ase': 'amen',
+    'ojo': 'day',
+    'ori': 'head',
+    'osan': 'moon',
+    'ilu': 'town',
+    'aja': 'dog',
+    'igba': 'time',
+    'omoluabi': 'child of God',
+    'ero': 'visitor',
+    'ekabo': 'thank you',
+    'iya': 'mother',
+    'baba': 'father',
+    'ebon': 'older brother/sister',
+    'aburo': 'younger brother/sister'
+}
