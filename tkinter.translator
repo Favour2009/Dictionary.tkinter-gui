@@ -48,3 +48,25 @@ yoruba_dictionary = {
     'ebon': 'older brother/sister',
     'aburo': 'younger brother/sister'
 }
+french_dictionary = {
+    "bonjour": "hello",
+    "merci": "thank you",
+    "s'il vous plaît": "please",
+    "au revoir": "goodbye",
+    "comment allez-vous?": "how are you?",
+    "oui": "yes",
+    "non": "no",
+    "je suis désolé": "I'm sorry",
+    "s'il vous plaît": "please",
+    "d'accord": "okay",
+    "pardon": "excuse me",
+    "bienvenue": "welcome",
+    "ça va": "how's it going?",
+    "je ne comprends pas": "I don't understand",
+    "où est...?": "where is...?",
+    "combien ça coûte?": "how much does it cost?",
+    "je voudrais...": "I would like...",
+    "quelle heure est-il?": "what time is it?",
+    "c'est magnifique": "it's magnificent",
+    "bonne journée": "have a good day"
+}
